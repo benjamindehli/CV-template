@@ -3,6 +3,11 @@ input, textarea {
     transition: background .2s;
 }
 
+input {
+	border: none;
+	background: none;
+}
+
 textarea {
 	width: 100%;
 	max-width: 100%;
@@ -26,13 +31,16 @@ header .headertext {
 }
 
 header .headertext #name{
-	font-size: 2em;
+	font-size: 1.7em;
+	color: #FFF;
+	padding: 10px;
 }
 
 header .headertext textarea#qualifications{
-	margin-top: 0;
+	margin-top: 5px;
 	color: #FFF;
 	min-height: 7em;
+	padding: 10px;
 }
 
 header .header-image {
@@ -64,8 +72,6 @@ header .header-contact span{
 header .header-contact input {
 	width: calc(100% - 63px);
 	margin: 0 15px 0 5px;
-	border: none;
-	background: none;
 	color: #FFF;
 	box-sizing: border-box;
 	font-size: 1.1em;
@@ -78,11 +84,15 @@ header .header-contact span .fa:last-child:before {
 
 
 
-header .headertext textarea#qualifications:hover, 
+header .headertext textarea#qualifications:hover,
+header input:hover{
+	background: rgba(255,255,255, .2);
+}
+
 header .headertext textarea#qualifications:focus, 
-header .header-contact input:hover,
-header .header-contact input:focus{
-	background: rgba(255,255,255, .05);
+header input:focus{
+	background: rgba(255,255,255, 1);
+	color: #007294!important;
 	outline: none;
 }
 
