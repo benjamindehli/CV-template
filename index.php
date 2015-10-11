@@ -11,9 +11,7 @@
 	<div class="page">
 		<header>
 			<div class="headertext">
-				<p id="name">
-				Fornavn Etternavn
-				</p>
+				<input id="name" type="text" placeholder="Fornavn Etternavn"></input>
 				<textarea id="qualifications">Kvalifikasjoner</textarea>
 			</div>
 			<div class="header-image">
