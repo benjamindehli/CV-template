@@ -1,0 +1,116 @@
+input, textarea {
+	-webkit-transition: background .2s; /* Safari */
+    transition: background .2s;
+}
+
+textarea {
+	width: 100%;
+	max-width: 100%;
+	background: none;
+	border: none;
+	font-size: 1em;
+	resize: none;
+}
+
+header {
+	margin: -2cm -2cm 0 -2cm;
+	background-color: #007294;
+	color: #FFF;
+	padding: 1cm 2cm;
+}
+
+header .headertext {
+	width: 12cm;
+	float: left;
+	font-weight: normal;
+}
+
+header .headertext #name{
+	font-size: 2em;
+}
+
+header .headertext textarea#qualifications{
+	margin-top: 0;
+	color: #FFF;
+	min-height: 7em;
+}
+
+header .header-image {
+	width: 4cm;
+	float: right;
+}
+
+header .header-image img{
+	width: 100%;
+	border-radius: 50%;
+	border: 4px solid rgba(255,255,255,.2);
+}
+
+header .header-contact{
+
+}
+
+header .header-contact .contact-info{
+	width: 50%;
+	float: left;
+	margin-top: 5px;
+}
+
+header .header-contact span{
+	width: 43px;
+	float: left;
+}
+
+header .header-contact input {
+	width: calc(100% - 63px);
+	margin: 0 15px 0 5px;
+	border: none;
+	background: none;
+	color: #FFF;
+	box-sizing: border-box;
+	font-size: 1.1em;
+	padding: 10px;
+}
+
+header .header-contact span .fa:last-child:before {
+	color: #007294;
+}
+
+
+
+header .headertext textarea#qualifications:hover, 
+header .headertext textarea#qualifications:focus, 
+header .header-contact input:hover,
+header .header-contact input:focus{
+	background: rgba(255,255,255, .05);
+	outline: none;
+}
+
+.section{
+	padding: 15px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.section .section-label{
+	width: 4cm;
+	text-align: right;
+	float: left;
+}
+
+.section .section-content{
+	width: 12.5cm;
+	float: right;
+}
+.section .section-content textarea{
+	padding: 0 10px;
+}
+
+.section .section-content textarea:hover,
+.section .section-content textarea:focus{
+	background: rgba(90,210,255,.15);
+	outline: none;
+}
+
+.clear-fix{
+	clear: both;
+}
